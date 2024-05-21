@@ -1,6 +1,3 @@
-# governor-sindh-it-course
-A comprehensive collection of projects, assignments, and notes from the Governor Sindh IT Initiative course. Currently focused on AI, Metaverse, Web3, TypeScript, and Next.js.
-
 # Governor Sindh IT Initiative Course
 
 Welcome to the repository for the Governor Sindh IT Initiative course. This repository contains all the projects, assignments, and notes from the course. I am currently in the first quarter, focusing on TypeScript and Next.js.
