@@ -1,0 +1,19 @@
+{
+  "name": "canonyousuf-cli-number-guessing",
+  "version": "1.0.0",
+  "description": "My First Project, which is cli based number guessing game.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Canon Yousuf",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
