@@ -1,6 +1,6 @@
 # canonyousuf-cli-number-guessing
 
-Welcome to my first TypeScript project! This is a command-line interface (CLI) based number guessing game. The game generates a random number, and the player tries to guess it. The game provides feedback on whether the guess is too high, too low, or correct.
+Welcome to my first TypeScript project! This is a command-line interface (CLI) based number guessing game. The game generates a random number, and the player tries to guess it. The game provides feedback on whether the guess is too high, too low, or correct..
 
 ## 🎮 Game Overview
 
