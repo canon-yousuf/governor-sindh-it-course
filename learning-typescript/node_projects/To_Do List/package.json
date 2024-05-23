@@ -1,0 +1,19 @@
+{
+  "name": "canonyousuf-todolist",
+  "version": "1.0.1",
+  "description": "My Fourth Project, which is To Do List made in Typescript, with the help of inquirer.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Canon Yousuf",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
