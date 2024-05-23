@@ -1,0 +1,22 @@
+{
+  "name": "canonyousuf-calculator",
+  "version": "1.0.7",
+  "description": "My Second Project, which the simple calculator which is made in Typescript the help of Inquirer.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Canon Yousuf",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
