@@ -10,10 +10,6 @@ Welcome to DEVSCHOL, a command-line Student Management System designed to help m
 - **Pay Fees**: Pay fees for a specified student and update their balance.
 - **Show Status**: Display the current status of a specified student, including ID, name, enrolled courses, and balance.
 
-## NPX Command 
- ```bash
-npx canstudentmangementsystem
-
 ## Code Overview
 
 ### Student Class
