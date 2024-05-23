@@ -1,6 +1,3 @@
-Sure, here's the revised content for the `README.md` file in Markdown format:
-
-```markdown
 # DEVSCHOL - Student Management System
 
 Welcome to DEVSCHOL, a command-line Student Management System designed to help manage student data efficiently. This system allows you to add students, enroll them in courses, view their balances, pay fees, and display their status.
@@ -13,14 +10,9 @@ Welcome to DEVSCHOL, a command-line Student Management System designed to help m
 - **Pay Fees**: Pay fees for a specified student and update their balance.
 - **Show Status**: Display the current status of a specified student, including ID, name, enrolled courses, and balance.
 
-
-### Using `npx`
-
-To start the Student Management System directly using `npx`, run:
-
-```bash
-npx student-management-system
-```
+## NPX Command 
+ ```bash
+npx canstudentmangementsystem
 
 ## Code Overview
 
