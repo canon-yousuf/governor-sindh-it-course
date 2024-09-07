@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #e6f7ff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  margin: 15px 5px 0px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+#education,
+#skills {
+  max-width: 1000px;
+  margin: 10px auto; /* Centers the section */
+  padding: 15px;
+}
+
+#edu-heading {
+  margin-bottom: 15px;
+}
+
+#Matric {
+  margin-bottom: 10px;
+}
+
+.list ul {
+  padding-left: 20px;
+}
+
+#skills h2 {
+  margin-bottom: 10px;
+}
+
+label {
+  width: 100px;
+  height: 40px;
+  display: block;
+  background-color: #000;
+  border-radius: 100px;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.moving_circle {
+  position: absolute;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 100%;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+input[type="checkbox"]:checked + .moving_circle {
+  transform: translateX(60px);
+  box-shadow: 0px 0px 40px 20px #dcdcdc;
+}
+
+@media (max-width: 768px) {
+  /* For tablets and smaller devices */
+  #education,
+  #skills {
+    margin: 10px 20px; /* Smaller margin for smaller screens */
+  }
+
+  header img {
+    width: 80px;
+    height: 80px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  .list ul {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For mobile devices */
+  header {
+    text-align: center;
+  }
+
+  #education,
+  #skills {
+    margin: 5px 10px;
+  }
+
+  header h1 {
+    font-size: 1.2em;
+  }
+
+  .list ul {
+    padding-left: 5px;
+  }
+
+  label {
+    width: 80px;
+    height: 30px;
+  }
+
+  .moving_circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  input[type="checkbox"]:checked + .moving_circle {
+    transform: translateX(50px);
+  }
+}

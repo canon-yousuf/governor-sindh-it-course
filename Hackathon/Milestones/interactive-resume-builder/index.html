@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive-Resume-Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img.jpeg" alt="Profile Photo" style="margin-bottom: 5px" />
+      <h1>Canon Yousuf</h1>
+      <p>Email: coder.canonyousuf@gmail.com</p>
+    </header>
+    <section id="education">
+      <h2 id="edu-heading">Education:</h2>
+      <!-- Matriculation -->
+      <h4 id="Matric">Matriculation</h4>
+      <p style="margin-bottom: 15px">
+        AM Memorial Secondary School <br />
+        Year of Completion: 2022
+      </p>
+      <!-- Intermediate -->
+      <h4 id="Inter" style="margin-bottom: 10px">Intermediate (Pre-Medical)</h4>
+      <p style="margin-bottom: 2px">
+        Govt. Degree Boys College Korangi 2<sup>1/2</sup>
+      </p>
+      <p style="margin-bottom: 15px">Year of Completion: 2024</p>
+      <!-- Current Enrolled -->
+      <h4 id="Current-Enrolled" style="margin-bottom: 10px">
+        Currently Enrolled
+      </h4>
+      <p style="margin-bottom: 4px">Second Quarter Student</p>
+      <p style="margin-bottom: 10px">
+        Cloud Applied Generative AI Engineering Course<br />(Governor IT
+        Initiative)
+      </p>
+    </section>
+
+    <section style="margin-left: 195px">
+      <h2 id="skillhead" style="margin: 1px 0px 10px">Skills:</h2>
+      <div class="Toggle">
+        <label>
+          <input type="checkbox" />
+          <div class="moving_circle"></div>
+        </label>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="list">
+        <ul style="margin: 25px">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Typescript</li>
+        </ul>
+      </div>
+    </section>
+    <section Style="margin: 20px 180px 10px;" id="Work Experience">
+      <h2>Work Experience</h2>
+      <ul style="margin: 20px 40px 35px">
+        <li>Working as a Grade 9th & 10th Maths Teacher</li>
+      </ul>
+    </section>
+    <br />
+    <!-- Include the TypeScript compiled file -->
+    <script src="ts/main.js"></script>
+  </body>
+</html>
