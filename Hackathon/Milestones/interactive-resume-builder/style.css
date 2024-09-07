@@ -34,11 +34,16 @@ header h1 {
 #education,
 #skills {
   max-width: 1000px;
-  margin: 10px auto; /* Centers the section */
+  margin: 10px auto; 
   padding: 15px;
 }
 
-#edu-heading {
+footer{
+  max-width: 1000px;
+  margin: 10px auto; 
+  padding: 15px;
+}
+#edu-heading{
   margin-bottom: 15px;
 }
 

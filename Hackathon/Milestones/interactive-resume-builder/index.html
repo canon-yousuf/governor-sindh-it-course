@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Personal Information -->
     <header>
       <img src="img.jpeg" alt="Profile Photo" style="margin-bottom: 5px" />
       <h1>Canon Yousuf</h1>
       <p>Email: coder.canonyousuf@gmail.com</p>
     </header>
+    <!-- Education -->
     <section id="education">
       <h2 id="edu-heading">Education:</h2>
       <!-- Matriculation -->
@@ -35,32 +37,35 @@
         Cloud Applied Generative AI Engineering Course<br />(Governor IT
         Initiative)
       </p>
+      <!-- Skills -->
+      <section">
+        <h2 id="skillhead" style="margin: 1px 0px 10px">Skills:</h2>
+        <div class="Toggle">
+          <label>
+            <input type="checkbox" />
+            <div class="moving_circle"></div>
+          </label>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="list">
+          <ul style="margin: 10px">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Typescript</li>
+          </ul>
+        </div>
+      </section>
+      </section>
     </section>
-
-    <section style="margin-left: 195px">
-      <h2 id="skillhead" style="margin: 1px 0px 10px">Skills:</h2>
-      <div class="Toggle">
-        <label>
-          <input type="checkbox" />
-          <div class="moving_circle"></div>
-        </label>
-      </div>
-    </section>
-    <section id="skills">
-      <div class="list">
-        <ul style="margin: 25px">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Typescript</li>
+    <!-- Work Experience -->
+    <footer>
+      <section  id="Work Experience">
+        <h2>Work Experience</h2>
+        <ul style="margin: 10px;">
+          <li>Working as a Grade 9th & 10th Maths Teacher</li>
         </ul>
-      </div>
-    </section>
-    <section Style="margin: 20px 180px 10px;" id="Work Experience">
-      <h2>Work Experience</h2>
-      <ul style="margin: 20px 40px 35px">
-        <li>Working as a Grade 9th & 10th Maths Teacher</li>
-      </ul>
-    </section>
+    </footer>
     <br />
     <!-- Include the TypeScript compiled file -->
     <script src="ts/main.js"></script>
