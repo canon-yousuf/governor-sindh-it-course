@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Form to capture user data -->
+    <section id="resume-form">
+        <h2>Fill Your Information</h2>
+        <form id="resumeForm">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" required /><br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required /><br />
+
+            <label for="education">Education:</label>
+            <input type="text" id="education" required /><br />
+
+            <label for="skills">Skills (comma-separated):</label>
+            <input type="text" id="skills" required /><br />
+
+            <label for="workExperience">Work Experience:</label>
+            <textarea id="workExperience" required></textarea><br />
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Output section for the dynamically generated resume -->
+    <section id="resume-output">
+        <h2>Generated Resume
+            <br>
+            <ul>
+                <li>You can also edit the resume by clicking on what you need to change.</li>
+            </ul>
+        </h2>
+
+        <header>
+            <h1 id="output-name" contenteditable="true"></h1>
+            <p id="output-email" contenteditable="true"></p>
+        </header>
+
+        <section id="output-education">
+            <h3>Education:</h3>
+            <p id="output-education-text" contenteditable="true"></p>
+        </section>
+
+        <section id="output-skills">
+            <h3>Skills:</h3>
+            <ul id="output-skills-list"></ul>
+        </section>
+
+        <section id="output-work">
+            <h3>Work Experience:</h3>
+            <p id="output-work-text" contenteditable="true"></p>
+        </section>
+
+    </section>
+
+    <!-- Importing compiled TypeScript -->
+    <script type="module" src="./ts/main.js"></script>
+</body>
+</html>
