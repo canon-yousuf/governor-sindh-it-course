@@ -1,10 +1,11 @@
 /* General Styling */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{
+  font-family: 'Segoe UI', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
   background-color: #e9f0f7;
   margin: 20px;
   color: #333;
   line-height: 1.6;
+  background-color: #a3d2d3;
 }
 
 /* Form Styling */
@@ -40,13 +41,13 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #a3d2d3;
 }
 
 /* Button Styling */
 button {
   padding: 12px 25px;
-  background-color: #007bff;
+  background-color: #0a3b3c;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -56,7 +57,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #333;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -73,9 +74,9 @@ button:hover {
 #resume-output h2 {
   font-size: 24px;
   margin-bottom: 20px;
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #0a3b3c;
   padding-bottom: 10px;
-  color: #0056b3;
+  color: #0a3b3c;
 }
 
 #resume-output section {
