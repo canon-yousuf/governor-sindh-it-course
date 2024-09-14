@@ -19,7 +19,7 @@ Each day, I will complete one project using Next.js. Below is the list of daily 
 
 | Day  | Project Name                  | Description                                       | GitHub Link                                  | Live Demo (if applicable) |
 |------|-------------------------------|---------------------------------------------------|----------------------------------------------|---------------------------|
-| Day 1| [Count Down Timer App](#)      | A simple app that counts down to a specific date or event. | [GitHub Link](#)                             | [Live Demo](#)             |
+| Day 1| [Count Down Timer App](#)      | A simple app that counts down to a specific date or event. | [GitHub Link](#https://github.com/canon-yousuf/governor-sindh-it-course/tree/main/quarter2/30-Days-Projects/count-down-timer-app)                             | [Live Demo](#https://cy-countdown-app.vercel.app/)             |
 | Day 2| [Weather Widget App](#)        | A widget that shows the current weather conditions for a selected location. | [GitHub Link](#)                             | [Live Demo](#)             |
 | Day 3| [Project 3 Name]               | Brief description of the project.                 | [GitHub Link](#)                             | [Live Demo](#)             |
 | ...  | ...                             | ...                                               | ...                                          | ...                        |
