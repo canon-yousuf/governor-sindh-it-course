@@ -21,6 +21,7 @@ A Streamlit-based application for secure, in-memory data storage and retrieval u
 1. **Clone the repo**
    ```bash
    git clone https://github.com/canon-yousuf/governor-sindh-it-course/tree/main/quarter3/Projects/assignment05/secure_data_encryption
+   
    ```
 2. **Create & activate a virtual environment**
    ```bash
