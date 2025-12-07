@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'quarter4/Hackathons/hackathon_one_/physical-ai-book/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
