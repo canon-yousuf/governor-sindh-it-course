@@ -1,0 +1,39 @@
+name: Deploy Physical AI Book
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'quarter4/Hackathons/hackathon_one_/physical-ai-book/**'
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+          cache-dependency-path: quarter4/Hackathons/hackathon_one_/physical-ai-book/package-lock.json
+
+      - name: Install Dependencies
+        working-directory: quarter4/Hackathons/hackathon_one_/physical-ai-book
+        run: npm ci
+
+      - name: Build Website
+        working-directory: quarter4/Hackathons/hackathon_one_/physical-ai-book
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./quarter4/Hackathons/hackathon_one_/physical-ai-book/build
+          publish_branch: gh-pages
