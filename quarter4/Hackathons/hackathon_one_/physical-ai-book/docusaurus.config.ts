@@ -20,12 +20,12 @@ const config: Config = {
   url: 'https://canon-yousuf.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-book/',
+  baseUrl: '/governor-sindh-it-course/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'canon-yousuf', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-book', // Usually your repo name.
+  projectName: 'governor-sindh-it-course', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 
