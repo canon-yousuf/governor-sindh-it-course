@@ -1,0 +1,54 @@
+/**
+ * CSS Custom Properties
+ * Define specific values for the Infima CSS framework variables
+ */
+
+:root {
+  --ifm-color-primary: #76b900; /* NVIDIA Neon Green */
+  --ifm-color-primary-dark: #6aa700;
+  --ifm-color-primary-darker: #649d00;
+  --ifm-color-primary-darkest: #528200;
+  --ifm-color-primary-light: #82cb00;
+  --ifm-color-primary-lighter: #88d400;
+  --ifm-color-primary-lightest: #99ee00;
+  
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Cyberpunk / Robotics Accents */
+  --electric-blue: #00f2ff;
+  --cyber-pink: #ff00ff;
+}
+
+/* For readability, Docusaurus handles Dark Mode by default via class="data-theme='dark'" 
+   We will ensure the default user experience is dark-leaning or explicitly dark 
+   by overriding the light mode variables to be darker if we wanted "Dark Only", 
+   but for now we stick to Docusaurus defaults + overrides. 
+*/
+
+[data-theme='dark'] {
+  --ifm-color-primary: #76b900;
+  --ifm-color-primary-dark: #6aa700;
+  --ifm-color-primary-darker: #649d00;
+  --ifm-color-primary-darkest: #528200;
+  --ifm-color-primary-light: #82cb00;
+  --ifm-color-primary-lighter: #88d400;
+  --ifm-color-primary-lightest: #99ee00;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Hardware Alert Warning Box */
+.hardware-alert {
+  border: 2px solid var(--ifm-color-danger);
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.hardware-alert h4 {
+  color: var(--ifm-color-danger);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
