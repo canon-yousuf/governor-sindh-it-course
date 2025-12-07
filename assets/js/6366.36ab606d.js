@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkphysical_ai_book=globalThis.webpackChunkphysical_ai_book||[]).push([[6366],{6366:(a,c,e)=>{e.d(c,{createArchitectureServices:()=>i.S});var i=e(8980);e(7960)}}]);
