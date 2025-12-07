@@ -20,7 +20,7 @@ jobs:
       
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: npm
           cache-dependency-path: quarter4/Hackathons/hackathon_one_/physical-ai-book/package-lock.json
 
